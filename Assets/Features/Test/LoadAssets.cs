@@ -25,24 +25,9 @@ public class LoadAssets : MonoBehaviour
     private async Task<AssetBundle> loadAssetBundle(string BundleUrl)
     {
         var request = UnityEngine.Networking.UnityWebRequestAssetBundle.GetAssetBundle(BundleUrl, 0);
-        await request.SendWebRequest().GetMyTask();
+        await request.SendWebRequest().GetTask(); // .GetMyTask();
         var bundle = UnityEngine.Networking.DownloadHandlerAssetBundle.GetContent(request);
 
         return bundle;
-    }
-}
-
-public static class MyExtensionMethods
-{
-    public static Task GetMyTask(this AsyncOperation asyncOperation)
-    {
-        var tcs = new TaskCompletionSource<object>();
-
-        asyncOperation.completed += (AsyncOperation e) =>
-        {
-            tcs.SetResult(null);
-        };
-
-        return tcs.Task;
     }
 }
