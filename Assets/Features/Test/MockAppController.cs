@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -42,7 +43,10 @@ public class MockAppController : AppControllerBase
 
 public class MockUIManager : IUIManager
 {
+    public event Action<GameObject> OnMakeGrabbable;
+
     public void MakeGrabbable(GameObject Item)
     {
+        OnMakeGrabbable?.Invoke(Item);
     }
 }

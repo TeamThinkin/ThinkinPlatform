@@ -25,7 +25,7 @@ public class AppController : AppControllerBase
 
     public override string BundleVersionCode => GeneratedInfo.BundleVersionCode;
 
-    private XRUIManager _uiManager = new XRUIManager();
+    private UIManager _uiManager = new UIManager();
     public override IUIManager UIManager => _uiManager;
 
     void Start()
@@ -37,6 +37,10 @@ public class AppController : AppControllerBase
         DestinationPresenter.UrlChanged += DestinationPresenter_UrlChanged;
 
         DeviceRegistrationController.CheckDeviceRegistration();
+
+        CoreModule.Initialize();
+        XrUIModule.Initialize();
+        PresenceModule.Initialize();
     }
 
     private void OnDestroy()
