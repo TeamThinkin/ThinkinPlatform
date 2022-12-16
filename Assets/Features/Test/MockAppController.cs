@@ -19,6 +19,8 @@ public class MockAppController : AppControllerBase
     private MockUIManager uiManager = new MockUIManager();
     public override IUIManager UIManager => UIManager;
 
+    public override bool IsPancake => false;
+
     public override void SetPlayerPosition(Vector3 WorldPosition)
     {
         playerTransform.position = WorldPosition;
