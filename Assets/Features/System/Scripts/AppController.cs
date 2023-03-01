@@ -9,6 +9,8 @@ using UnityEngine;
 
 public class AppController : AppControllerBase
 {
+    [SerializeField] private TMPro.TMP_Text debugLabel;
+
     [SerializeField] private Autohand.AutoHandPlayer _autoHandPlayer;
 
     [SerializeField] private Camera _mainCamera;
@@ -39,6 +41,15 @@ public class AppController : AppControllerBase
         CoreModule.Initialize();
         XrUIModule.Initialize();
         PresenceModule.Initialize();
+
+        //try
+        //{
+        //    debugLabel.text = DeviceRegistrationController.checkFile();
+        //}
+        //catch(Exception ex)
+        //{
+        //    debugLabel.text = ex.Message;
+        //}
     }
 
     private void OnDestroy()
@@ -55,8 +66,8 @@ public class AppController : AppControllerBase
 
     private void WebSocketListener_OnSetUser(UserDto obj)
     {
-        Debug.Log("App Controller sees that the user has been set (logged in)");
-        DeviceRegistrationController.RegisterDevice();
+        Debug.Log("App Controller sees that the user has been set (logged in). Currently ignoring it");
+        //DeviceRegistrationController.RegisterDeviceWithLegacyServer();
     }
 
     private void UserInfo_OnCurrentUserChanged(UserInfo obj)
