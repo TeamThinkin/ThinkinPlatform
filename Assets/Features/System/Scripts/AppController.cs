@@ -32,6 +32,9 @@ public class AppController : AppControllerBase
 
     public override bool IsPancake => false;
 
+    [SerializeField] private Keyboard _keyboard;
+    public override IKeyboard Keyboard => _keyboard;
+
     void Start()
     {
         UserInfo.OnCurrentUserChanged += UserInfo_OnCurrentUserChanged;

@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Features/Login Room/Scene/Login.unity
     guid: a21488b8ed13ecf44ad33d3a7bb133b2
   - enabled: 1
-    path: Assets/Features/Home Room/Home Room.unity
+    path: Packages/com.thinkin.core/Runtime/Home Room/Home Room.unity
     guid: b9686f1dc9a101f4f9a7de3961d4677b
   - enabled: 1
     path: Assets/Features/Empty Room/Empty Room.unity
