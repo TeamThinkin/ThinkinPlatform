@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "1WMHHA6CJM2072",
         "name": "com.Thinkin.ThinkinPlatform",
-        "processId": 29999,
+        "processId": 12663,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -36,6 +36,12 @@
             "deviceId": "1WMHHA6CJM2072",
             "name": "com.Thinkin.ThinkinPlatform",
             "processId": 29999,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHA6CJM2072",
+            "name": "com.Thinkin.ThinkinPlatform",
+            "processId": 12663,
             "exited": false
         }
     ],
