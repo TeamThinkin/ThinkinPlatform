@@ -1,47 +1,47 @@
 {
     "m_SelectedDeviceId": "1WMHHA6CJM2072",
     "m_SelectedPackage": {
-        "deviceId": "1WMHHA6CJM2072",
-        "name": "com.Thinkin.ThinkinPlatform",
-        "processId": 12663,
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
         {
             "deviceId": "1WMHHA6CJM2072",
-            "name": "com.Thinkin.ThinkinPlatform",
-            "processId": 28162,
+            "name": "com.oculus.xrstreamingclient",
+            "processId": 18085,
+            "exited": true
+        },
+        {
+            "deviceId": "1WMHHA6CJM2072",
+            "name": "com.oculus.xrstreamingclient",
+            "processId": 19474,
             "exited": true
         },
         {
             "deviceId": "1WMHHA6CJM2072",
             "name": "com.Thinkin.ThinkinPlatform",
-            "processId": 28729,
+            "processId": 18134,
             "exited": true
         },
         {
             "deviceId": "1WMHHA6CJM2072",
-            "name": "com.Thinkin.ThinkinPlatform",
-            "processId": 29153,
-            "exited": true
-        },
-        {
-            "deviceId": "1WMHHA6CJM2072",
-            "name": "com.Thinkin.ThinkinPlatform",
-            "processId": 29569,
-            "exited": true
-        },
-        {
-            "deviceId": "1WMHHA6CJM2072",
-            "name": "com.Thinkin.ThinkinPlatform",
-            "processId": 29999,
+            "name": "com.oculus.os.vrusb",
+            "processId": 1755,
             "exited": false
         },
         {
             "deviceId": "1WMHHA6CJM2072",
-            "name": "com.Thinkin.ThinkinPlatform",
-            "processId": 12663,
+            "name": "com.oculus.xrstreamingclient",
+            "processId": 4626,
+            "exited": true
+        },
+        {
+            "deviceId": "1WMHHA6CJM2072",
+            "name": "com.oculus.xrstreamingclient",
+            "processId": 6678,
             "exited": false
         }
     ],
