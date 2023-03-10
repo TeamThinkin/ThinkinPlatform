@@ -1,9 +1,9 @@
 {
     "m_SelectedDeviceId": "1WMHHA6CJM2072",
     "m_SelectedPackage": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
+        "deviceId": "1WMHHA6CJM2072",
+        "name": "com.Thinkin.ThinkinPlatform",
+        "processId": 7575,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,37 +11,49 @@
         {
             "deviceId": "1WMHHA6CJM2072",
             "name": "com.oculus.xrstreamingclient",
-            "processId": 18085,
-            "exited": true
-        },
-        {
-            "deviceId": "1WMHHA6CJM2072",
-            "name": "com.oculus.xrstreamingclient",
-            "processId": 19474,
+            "processId": 6678,
             "exited": true
         },
         {
             "deviceId": "1WMHHA6CJM2072",
             "name": "com.Thinkin.ThinkinPlatform",
-            "processId": 18134,
+            "processId": 12712,
             "exited": true
         },
         {
             "deviceId": "1WMHHA6CJM2072",
+            "name": "com.Thinkin.ThinkinPlatform",
+            "processId": 5190,
+            "exited": true
+        },
+        {
+            "deviceId": "1WMHHA6CJM2072",
+            "name": "com.oculus.shellenv",
+            "processId": 4241,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHA6CJM2072",
             "name": "com.oculus.os.vrusb",
-            "processId": 1755,
+            "processId": 1740,
             "exited": false
         },
         {
             "deviceId": "1WMHHA6CJM2072",
             "name": "com.oculus.xrstreamingclient",
-            "processId": 4626,
+            "processId": 6198,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHHA6CJM2072",
+            "name": "com.Thinkin.ThinkinPlatform",
+            "processId": 6574,
             "exited": true
         },
         {
             "deviceId": "1WMHHA6CJM2072",
-            "name": "com.oculus.xrstreamingclient",
-            "processId": 6678,
+            "name": "com.Thinkin.ThinkinPlatform",
+            "processId": 7575,
             "exited": false
         }
     ],
