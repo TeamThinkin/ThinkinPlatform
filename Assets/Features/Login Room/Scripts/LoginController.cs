@@ -75,6 +75,8 @@ public class LoginController : MonoBehaviour
 
     public void OnContinueButtonPressed()
     {
+        Debug.Log("Continue button pressed");
+        Debug.Log("Displaying url: " + UserInfo.CurrentUser.HomeRoomUrl);
         DestinationPresenter.Instance.DisplayUrl(UserInfo.CurrentUser.HomeRoomUrl);
     }
 }

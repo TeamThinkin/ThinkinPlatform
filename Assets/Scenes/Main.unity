@@ -441,6 +441,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -450,6 +451,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.25
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -992,6 +994,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -1001,6 +1004,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -1180,6 +1184,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -1189,6 +1194,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -1277,6 +1283,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -1286,6 +1293,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -1465,6 +1473,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -1474,6 +1483,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -1624,6 +1634,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -1633,6 +1644,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -1940,6 +1952,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -1949,6 +1962,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -2037,6 +2051,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -2046,6 +2061,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -2300,6 +2316,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -2309,6 +2326,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -3040,6 +3058,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -3049,6 +3068,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -3247,6 +3267,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 1
   ignoreWeight: 0
   parentOnGrab: 0
@@ -3256,6 +3277,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.25
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -3638,6 +3660,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -3647,6 +3670,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.25
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -3843,6 +3867,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -3852,6 +3877,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -4349,6 +4375,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -4358,6 +4385,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -5260,6 +5288,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -5269,6 +5298,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -5567,6 +5597,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 1
   ignoreWeight: 0
   parentOnGrab: 0
@@ -5576,6 +5607,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.25
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -5739,6 +5771,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -5748,6 +5781,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -6601,6 +6635,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -6610,6 +6645,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -7046,6 +7082,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -7055,6 +7092,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -7334,6 +7372,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -7343,6 +7382,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -7431,6 +7471,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -7440,6 +7481,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -7737,6 +7779,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -7746,6 +7789,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -8025,6 +8069,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -8034,6 +8079,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -8134,6 +8180,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -8143,6 +8190,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -8583,6 +8631,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -8592,6 +8641,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -8789,6 +8839,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -8798,6 +8849,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -9327,6 +9379,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 1
   ignoreWeight: 0
   parentOnGrab: 0
@@ -9336,6 +9389,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.25
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -9487,6 +9541,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -9496,6 +9551,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -9740,6 +9796,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 1
   ignoreWeight: 0
   parentOnGrab: 0
@@ -9749,6 +9806,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.25
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -9912,6 +9970,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -9921,6 +9980,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -10318,6 +10378,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -10327,6 +10388,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -11009,6 +11071,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -11018,6 +11081,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -11354,6 +11418,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 1
   ignoreWeight: 0
   parentOnGrab: 0
@@ -11363,6 +11428,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.25
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -11526,6 +11592,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -11535,6 +11602,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -11778,6 +11846,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 1
   ignoreWeight: 0
   parentOnGrab: 0
@@ -11787,6 +11856,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.25
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -11950,6 +12020,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -11959,6 +12030,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -12281,6 +12353,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -12290,6 +12363,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.25
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -12770,6 +12844,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 1
   ignoreWeight: 0
   parentOnGrab: 0
@@ -12779,6 +12854,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.25
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -13085,6 +13161,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -13094,6 +13171,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -13281,6 +13359,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -13290,6 +13369,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.25
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -13480,6 +13560,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -13489,6 +13570,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -13836,6 +13918,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -13845,6 +13928,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -14181,6 +14265,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 1
   ignoreWeight: 0
   parentOnGrab: 0
@@ -14190,6 +14275,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.25
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -14584,6 +14670,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -14593,6 +14680,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -15027,6 +15115,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -15036,6 +15125,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -15346,6 +15436,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -15355,6 +15446,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -15941,6 +16033,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -15950,6 +16043,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -16388,6 +16482,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -16397,6 +16492,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -16706,6 +16802,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -16715,6 +16812,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.25
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -16884,6 +16982,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 1
   ignoreWeight: 0
   parentOnGrab: 0
@@ -16893,6 +16992,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.25
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -17167,6 +17267,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 1
   ignoreWeight: 0
   parentOnGrab: 0
@@ -17176,6 +17277,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.25
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -17358,6 +17460,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 1
   ignoreWeight: 0
   parentOnGrab: 0
@@ -17367,6 +17470,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.25
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -17530,6 +17634,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -17539,6 +17644,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -17850,6 +17956,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -17859,6 +17966,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -18126,6 +18234,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -18135,6 +18244,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -19046,6 +19156,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -19055,6 +19166,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.25
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -19680,6 +19792,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -19689,6 +19802,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -20179,6 +20293,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -20188,6 +20303,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -20688,6 +20804,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -20697,6 +20814,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -21447,6 +21565,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 1
   ignoreWeight: 0
   parentOnGrab: 0
@@ -21456,6 +21575,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.25
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -21837,6 +21957,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -21846,6 +21967,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -22143,6 +22265,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 1
   ignoreWeight: 0
   parentOnGrab: 0
@@ -22152,6 +22275,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.25
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -22397,6 +22521,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -22406,6 +22531,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -22564,6 +22690,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -22573,6 +22700,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -22707,6 +22835,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -22716,6 +22845,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -23341,6 +23471,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -23350,6 +23481,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -23829,6 +23961,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -23838,6 +23971,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.25
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -24313,6 +24447,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -24322,6 +24457,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -25029,6 +25165,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -25038,6 +25175,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -25817,6 +25955,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -25826,6 +25965,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -26295,6 +26435,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -26304,6 +26445,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -26696,6 +26838,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -26705,6 +26848,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -27199,6 +27343,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 1
   ignoreWeight: 0
   parentOnGrab: 0
@@ -27208,6 +27353,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.25
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -27371,6 +27517,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -27380,6 +27527,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -28026,6 +28174,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -28035,6 +28184,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -28738,6 +28888,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 1
   ignoreWeight: 0
   parentOnGrab: 0
@@ -28747,6 +28898,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.25
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -28929,6 +29081,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 1
   ignoreWeight: 0
   parentOnGrab: 0
@@ -28938,6 +29091,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.25
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -29698,6 +29852,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 1
   ignoreWeight: 0
   parentOnGrab: 0
@@ -29707,6 +29862,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.25
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -29968,6 +30124,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -29977,6 +30134,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -30165,6 +30323,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -30174,6 +30333,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -30571,6 +30731,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 1
   ignoreWeight: 0
   parentOnGrab: 0
@@ -30580,6 +30741,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.25
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -31051,6 +31213,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -31060,6 +31223,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -31436,6 +31600,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -31445,6 +31610,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -31591,6 +31757,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -31600,6 +31767,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -31857,6 +32025,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -31866,6 +32035,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -33193,6 +33363,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -33202,6 +33373,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -33403,6 +33575,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 0
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 1
@@ -33412,6 +33585,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.5
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -33819,6 +33993,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 0
   ignoreWeight: 0
   parentOnGrab: 0
@@ -33828,6 +34003,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.25
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -34111,6 +34287,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 1
   ignoreWeight: 0
   parentOnGrab: 0
@@ -34120,6 +34297,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.25
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -34400,6 +34578,7 @@ MonoBehaviour:
   allowHeldSwapping: 1
   instantGrab: 0
   useGentleGrab: 1
+  heldNoFriction: 1
   maintainGrabOffset: 1
   ignoreWeight: 0
   parentOnGrab: 0
@@ -34409,6 +34588,7 @@ MonoBehaviour:
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1
   ignoreReleaseTime: 0.25
+  maxHeldVelocity: 10
   heldPositionOffset: {x: 0, y: 0, z: 0}
   heldRotationOffset: {x: 0, y: 0, z: 0}
   customGrabJoint: {fileID: 0}
@@ -34688,6 +34868,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 617033242}
     m_Modifications:
+    - target: {fileID: 49715155057998558, guid: 1747d9f63681eb24c8707dcd15c11404, type: 3}
+      propertyPath: MaxRayDistance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 958909499587732269, guid: 1747d9f63681eb24c8707dcd15c11404, type: 3}
       propertyPath: maxStepAngle
       value: 45
