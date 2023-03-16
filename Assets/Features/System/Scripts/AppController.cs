@@ -58,8 +58,8 @@ public class AppController : AppControllerBase
 
     private void WebSocketListener_OnSetUser(UserDto obj)
     {
-        Debug.Log("App Controller sees that the user has been set (logged in)");
-        DeviceRegistrationController.RegisterDevice();
+        Debug.Log("App Controller sees that the user has been set (logged in). Currently ignoring it");
+        //LegacyDeviceRegistrationController.RegisterDevice();
     }
 
     private void UserInfo_OnCurrentUserChanged(UserInfo obj)

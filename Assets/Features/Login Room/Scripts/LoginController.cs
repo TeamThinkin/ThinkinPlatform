@@ -63,7 +63,7 @@ public class LoginController : MonoBehaviour
     private void sendAccountLinkingCode()
     {
         Debug.Log("Sending account linking code");
-        socket.Emit("accountLinkingCode", new CodewordDto { UID = DeviceRegistrationController.UID, Codeword = codeword }.ToJSON(), false);
+        socket.Emit("accountLinkingCode", new CodewordDto { UID = LegacyDeviceRegistrationController.UID, Codeword = codeword }.ToJSON(), false);
     }
 
     private void WebSocketListener_OnSetUser(UserDto newUser)
